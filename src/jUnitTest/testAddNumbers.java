@@ -1,16 +1,16 @@
 package jUnitTest;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.Assert.*;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
-class testAddNumbers {
+public class testAddNumbers {
 
 	@Test
-	void test() {
-		jUnitFunctions junit= new jUnitFunctions();
-		int result = junit.addNumbers(100,200);
-		assertEquals (300,result);
+	public void test() {
+		jUnitFunctions junit = new jUnitFunctions();
+		int result = junit.addNumbers(101, 200);
+		assertEquals(300, result);
 	}
 
 }
